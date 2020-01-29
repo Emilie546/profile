@@ -1,0 +1,92 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(50, 50, 50);
+  font-size: 15px;
+  background: rgb(38,37,47);
+  background: linear-gradient(90deg, rgba(38,37,47,1) 0%, rgba(127,127,135,1) 34%, rgba(73,79,80,1) 100%);
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #6D676E;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #C6C6C6;
+  padding:15px 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1, h2 {
+  font-family: 'Varela', sans-serif;
+  color: #8B9292;
+}
+
+a:hover {
+  color: #fc1016;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #E8E8E8;
+  margin: 20px;
+  text-align: center;
+  padding:40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
